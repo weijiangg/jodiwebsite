@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	
 }
 header {
     background-color: #fff;
@@ -195,11 +196,16 @@ img {
 	border-radius: 30px;
 }
 .connect-icons {
-	text-align: center;
-	width: 30px;
-	margin: 5px;
-	padding-left: 620px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+	margin-left: 620px;
 }
+
+.connect-icons img {
+	width: 30px;
+    margin: 5px; /* Add margin between the logos */
+}
+
 .gray-section {
 	background-color: rgb(247, 244, 244); /* Background color for the centered section */
 }
@@ -243,4 +249,24 @@ img {
 	padding-bottom: 220px;
 	line-height: 1.9;
 	font-family: Arial, sans-serif;
+}
+.brown-section {
+	background-color: #c3a990;
+}
+.black-section1 {
+	background-color: black;
+}
+.container-photo {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+.section-photo {
+	line-height: 2.6;
+	text-align: center;
+	width: 100%; /* Adjust the width as needed */
+	padding: 20px;
+	margin: 10px;
+	height: 100%;
 }
