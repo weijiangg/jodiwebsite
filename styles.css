@@ -52,8 +52,6 @@ header nav ul li a {
 	text-align: center;
 	font-size: 18px;
 }
-
-
 .container {
     text-align: center;
 }
@@ -176,4 +174,73 @@ img {
 .dropdown-trigger:hover + .dropdown-content {
 	color: white; /* Set text color */
     display: block;
+}
+.tan-section {
+	background-color: #cecabe; /* Background color for the centered section */
+}
+.profile-section {
+	display: flex;
+	align-items: center;
+}
+.profile-info {
+	flex: 1;
+}
+.profile-info p {
+	margin: 0;
+}
+.profile-image {
+	flex: 1;
+	text-align: right;
+	padding-right: 650px;
+	border-radius: 30px;
+}
+.connect-icons {
+	text-align: center;
+	width: 30px;
+	margin: 5px;
+	padding-left: 620px;
+}
+.gray-section {
+	background-color: rgb(247, 244, 244); /* Background color for the centered section */
+}
+.white-section {
+	margin-top: 90px;
+	margin-left: 630px;
+	margin-right: 630px;
+	border-radius: 15px;
+	background-color: #ffffff; /* Background color for the centered section */
+}
+.wcontainer {
+	display: flex;
+	justify-content: space-between;
+}
+.wsection {
+	line-height: 1.6;
+	text-align: center;
+	width: 30%; /* Adjust the width as needed */
+	padding: 20px;
+	margin: 10px;
+}
+.blue-section {
+	background-color: #b4bdbc; /* Background color for the centered section */
+	display: flex;
+	align-items: center; /* Align items vertically */
+}
+.profile-image1 {
+	flex: 1;
+	text-align: left;
+	padding-right: 20px; /* Adjust as needed */
+}
+.profile-image1 img {
+	margin-top: 100px;
+	margin-left: 600px;
+	margin-bottom: 100px;
+	border-radius: 30px;
+	width: 750px;
+}
+.profile-text1 {
+	padding-right: 610px;
+	padding-bottom: 220px;
+	line-height: 1.9;
+	font-family: Arial, sans-serif;
 }
