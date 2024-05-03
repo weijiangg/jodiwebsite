@@ -192,13 +192,13 @@ img {
 .profile-image {
 	flex: 1;
 	text-align: right;
-	padding-right: 650px;
+	padding-right: 10%;
 	border-radius: 30px;
 }
 .connect-icons {
     display: flex; /* Use flexbox */
     align-items: center; /* Center items vertically */
-	margin-left: 620px;
+	margin-left: 10%;
 }
 
 .connect-icons img {
@@ -211,8 +211,8 @@ img {
 }
 .white-section {
 	margin-top: 90px;
-	margin-left: 630px;
-	margin-right: 630px;
+	margin-left: 20%;
+	margin-right: 10%;
 	border-radius: 15px;
 	background-color: #ffffff; /* Background color for the centered section */
 }
@@ -239,13 +239,13 @@ img {
 }
 .profile-image1 img {
 	margin-top: 100px;
-	margin-left: 600px;
+	margin-left: 10%;
 	margin-bottom: 100px;
 	border-radius: 30px;
-	width: 750px;
+	width: 600px;
 }
 .profile-text1 {
-	padding-right: 610px;
+	padding-right: 10%;
 	padding-bottom: 220px;
 	line-height: 1.9;
 	font-family: Arial, sans-serif;
